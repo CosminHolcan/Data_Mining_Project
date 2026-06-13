@@ -79,11 +79,11 @@ To skip the 3-5 minute indexing step, download the pre-built index from [here](h
 src/main/kotlin/Main.kt           # Main application with CLI menu
 src/main/resources/
   ├── questions.txt               # 100 trivia questions (category | clue | answer)
-  ├── wiki-subset-20140602/       # 46 Wikipedia XML dump files
+  ├── wiki-subset-20140602/       # 46 Wikipedia XML files
   └── tmp/                        # Generated Lucene index (auto-created)
 ```
 
-## 📈 Performance
+## Performance
 
 The system is evaluated against 100 real Jeopardy-style questions. The MRR obtained was 0.37.
 
